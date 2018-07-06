@@ -1,7 +1,7 @@
 /* font */
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Add a blue background color to the top navigation */
@@ -38,5 +38,14 @@ body {
 
 /* Right-aligned section inside the top navigation */
 #navbar .topnav-right {
-  float: right;
+    float: right;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 16px 50px;
 }
